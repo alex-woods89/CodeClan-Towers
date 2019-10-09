@@ -227,11 +227,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.All in CodeclanTowers">
+  <component name="RunManager" selected="JUnit.BookingTest.canGetBill">
     <configuration name="All in CodeclanTowers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeclanTowers" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BookingTest.canGetBill" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeclanTowers" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BookingTest" />
+      <option name="METHOD_NAME" value="canGetBill" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -241,16 +251,6 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="BookingTest" />
       <option name="METHOD_NAME" value="countNumberOfNights" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BookingTest.hasBedroomBooked" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodeclanTowers" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BookingTest" />
-      <option name="METHOD_NAME" value="hasBedroomBooked" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -278,11 +278,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BookingTest.canGetBill" />
         <item itemvalue="JUnit.All in CodeclanTowers" />
         <item itemvalue="JUnit.HotelTest.doesBookingContainGuest" />
         <item itemvalue="JUnit.HotelTest.canBookRoom" />
         <item itemvalue="JUnit.BookingTest.countNumberOfNights" />
-        <item itemvalue="JUnit.BookingTest.hasBedroomBooked" />
       </list>
     </recent_temporary>
   </component>
