@@ -29,4 +29,17 @@ public class Bedroom {
     public String getType() {
        return this.roomType;
     }
+
+    public int getGuestsCheckedIn(){
+       return this.guestsCheckedIn.size();
+    }
+
+    public void addGuest(Guest guest){
+       this.guestsCheckedIn.add(guest);
+
+    }
+
+    public void removeGuest(Guest guest) {
+       this.guestsCheckedIn.remove(guest);
+    }
 }
