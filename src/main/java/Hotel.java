@@ -7,6 +7,7 @@ public class Hotel {
     private ArrayList<ConferenceRoom> conferenceRooms;
     private ArrayList<Booking> bookings;
     private Guest guest;
+    private SwimmingPool swimmingPool;
 
 
     public Hotel(String name){
@@ -15,6 +16,7 @@ public class Hotel {
         this.conferenceRooms = new ArrayList<ConferenceRoom>();
         this.bookings = new ArrayList<Booking>();
         this.guest = guest;
+        this.swimmingPool = new SwimmingPool(); 
     }
 
 
