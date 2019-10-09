@@ -38,9 +38,20 @@ public class ConferenceRoomTest {
     }
 
     @Test
+    public void cantAddGuestsOverCapacity(){
+        conferenceRoom.addGuest(guest);
+        conferenceRoom.addGuest(guest);
+        conferenceRoom.addGuest(guest);
+        conferenceRoom.addGuest(guest);
+        conferenceRoom.addGuest(guest);
+        conferenceRoom.addGuest(guest);
+        assertEquals(5, conferenceRoom.getGuestCount());
+    }
+
+    @Test
     public void canRemoveGuest(){
         conferenceRoom.addGuest(guest);
-        conferenceRoom.addGuest(guest);
+        conferenceRoom.addGuest(guest1);
         conferenceRoom.removeGuest(guest);
         assertEquals(1, conferenceRoom.getGuestCount());
     }
