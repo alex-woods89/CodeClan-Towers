@@ -74,13 +74,11 @@ public class Hotel {
         return emptyRooms;
     }
 
-//    public void checkInFully(){
-//        for(Booking booking : bookings){
-//            if(booking.guestBooked() == guest){
-//                this.checkInToBedroom(guest, bedroom);
-//            }
-//        }
-//    }
 
-
+    public void checkInFully(Guest guest, Bedroom bedroom, Booking booking) {
+       if (guest.canPayBill(booking)) {
+           checkInToBedroom(guest, bedroom);
+           guest.payBill(booking);
+       }
+    }
 }

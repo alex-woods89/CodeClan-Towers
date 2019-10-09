@@ -18,6 +18,9 @@ public class Guest {
     public int getWallet() {
         return this.wallet;
     }
+    public boolean canPayBill(Booking booking){
+       return this.getWallet() >  booking.getBill();
+    }
 
     public void payBill(Booking booking) {
         if (this.getWallet() > booking.getBill()) {

@@ -105,8 +105,11 @@ public class HotelTest {
 
    @Test
     public void canCheckInFully(){
-         
+        hotel.bookRoom(bedroom, guest, 5);
+        hotel.checkInFully(guest, bedroom, booking);
         assertEquals(50, guest.getWallet());
+       assertEquals(1, bedroom.getGuestsCheckedIn());
+       assertEquals(1, hotel.bookingCount());
    }
 
 }
