@@ -14,15 +14,17 @@ public class HotelTest {
     private ConferenceRoom conferenceRoom;
     private ConferenceRoom conferenceRoom1;
     private Guest guest;
+    private Booking booking;
 
     @Before
     public void before(){
-        guest = new Guest("Sammy");
+        guest = new Guest("Sammy", 100);
         bedroom = new Bedroom(2, 101, "double", 10);
         bedroom1 = new Bedroom(4, 202, "family", 15);
         conferenceRoom = new ConferenceRoom(5, "Mint Suite");
         conferenceRoom1 = new ConferenceRoom(8, "Succulent Suite");
         hotel = new Hotel("CodeClan Towers");
+        booking = new Booking(bedroom, guest, 5);
     }
 
     @Test
@@ -101,5 +103,10 @@ public class HotelTest {
        assertEquals(1, hotel.getEmptyRooms().size());
    }
 
+   @Test
+    public void canCheckInFully(){
+         
+        assertEquals(50, guest.getWallet());
+   }
 
 }

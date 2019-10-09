@@ -6,12 +6,15 @@ public class Hotel {
     private ArrayList<Bedroom> bedrooms;
     private ArrayList<ConferenceRoom> conferenceRooms;
     private ArrayList<Booking> bookings;
+    private Guest guest;
+
 
     public Hotel(String name){
         this.name = name;
         this.bedrooms = new ArrayList<Bedroom>();
         this.conferenceRooms = new ArrayList<ConferenceRoom>();
         this.bookings = new ArrayList<Booking>();
+        this.guest = guest;
     }
 
 
@@ -70,6 +73,14 @@ public class Hotel {
         }
         return emptyRooms;
     }
+
+//    public void checkInFully(){
+//        for(Booking booking : bookings){
+//            if(booking.guestBooked() == guest){
+//                this.checkInToBedroom(guest, bedroom);
+//            }
+//        }
+//    }
 
 
 }
