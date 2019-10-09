@@ -34,9 +34,14 @@ public class Bedroom {
        return this.guestsCheckedIn.size();
     }
 
-    public void addGuest(Guest guest){
-       this.guestsCheckedIn.add(guest);
+    public boolean hasCapacity(){
+       return this.capacity > this.getGuestsCheckedIn();
+    }
 
+    public void addGuest(Guest guest){
+       if(hasCapacity()) {
+           this.guestsCheckedIn.add(guest);
+       }
     }
 
     public void removeGuest(Guest guest) {
