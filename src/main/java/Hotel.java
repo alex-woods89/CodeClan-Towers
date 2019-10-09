@@ -16,7 +16,7 @@ public class Hotel {
         this.conferenceRooms = new ArrayList<ConferenceRoom>();
         this.bookings = new ArrayList<Booking>();
         this.guest = guest;
-        this.swimmingPool = new SwimmingPool(); 
+        this.swimmingPool = new SwimmingPool();
     }
 
 
