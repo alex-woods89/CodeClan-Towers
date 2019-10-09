@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11b55f07-e910-459f-8626-9ef0e8622523" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Hotel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/HotelTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ConferenceRoomTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ConferenceRoomTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ConferenceRoomTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ConferenceRoomTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Hotel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Hotel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BedroomTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BedroomTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/HotelTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HotelTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -64,8 +62,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Hotel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="27" column="64" selection-start-line="27" selection-start-column="64" selection-end-line="27" selection-end-column="64" />
+            <state relative-caret-position="288">
+              <caret line="48" column="40" selection-start-line="48" selection-start-column="40" selection-end-line="48" selection-end-column="40" />
               <folding>
                 <element signature="e#388#389#0" expanded="true" />
                 <element signature="e#409#410#0" expanded="true" />
@@ -77,16 +75,22 @@
                 <element signature="e#664#665#0" expanded="true" />
                 <element signature="e#741#742#0" expanded="true" />
                 <element signature="e#762#763#0" expanded="true" />
+                <element signature="e#857#858#0" expanded="true" />
+                <element signature="e#891#892#0" expanded="true" />
+                <element signature="e#983#984#0" expanded="true" />
+                <element signature="e#1012#1013#0" expanded="true" />
+                <element signature="e#1096#1097#0" expanded="true" />
+                <element signature="e#1133#1134#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/HotelTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="48" column="48" lean-forward="true" selection-start-line="48" selection-start-column="48" selection-end-line="48" selection-end-column="48" />
+            <state relative-caret-position="1140">
+              <caret line="76" column="33" lean-forward="true" selection-start-line="76" selection-start-column="33" selection-end-line="76" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#617#618#0" expanded="true" />
@@ -95,6 +99,18 @@
                 <element signature="e#785#786#0" expanded="true" />
                 <element signature="e#1061#1062#0" expanded="true" />
                 <element signature="e#1089#1090#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/BedroomTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="246">
+              <caret line="42" column="9" lean-forward="true" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -125,18 +141,18 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/Guest.java" />
         <option value="$PROJECT_DIR$/src/test/java/GuestTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/BedroomTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Bedroom.java" />
         <option value="$PROJECT_DIR$/src/main/java/ConferenceRoom.java" />
         <option value="$PROJECT_DIR$/src/test/java/ConferenceRoomTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Hotel.java" />
         <option value="$PROJECT_DIR$/src/test/java/HotelTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Hotel.java" />
+        <option value="$PROJECT_DIR$/src/test/java/BedroomTest.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-96" />
-    <option name="y" value="78" />
+    <option name="x" value="85" />
+    <option name="y" value="23" />
     <option name="width" value="1400" />
     <option name="height" value="771" />
   </component>
@@ -214,7 +230,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.HotelTest">
+  <component name="RunManager" selected="JUnit.All in CodeclanTowers">
+    <configuration name="All in CodeclanTowers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeclanTowers" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HotelTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeclanTowers" />
       <option name="PACKAGE_NAME" value="" />
@@ -224,41 +248,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HotelTest.canAddBedroom" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HotelTest.canCheckInToBedroom" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeclanTowers" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="HotelTest" />
-      <option name="METHOD_NAME" value="canAddBedroom" />
+      <option name="METHOD_NAME" value="canCheckInToBedroom" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HotelTest.canAddConferenceRoom" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HotelTest.canCheckInToConferenceRoom" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeclanTowers" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="HotelTest" />
-      <option name="METHOD_NAME" value="canAddConferenceRoom" />
+      <option name="METHOD_NAME" value="canCheckInToConferenceRoom" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HotelTest.canCountBedrooms" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HotelTest.canCheckOutOfBedroom" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeclanTowers" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="HotelTest" />
-      <option name="METHOD_NAME" value="canCountBedrooms" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HotelTest.canGetName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodeclanTowers" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="HotelTest" />
-      <option name="METHOD_NAME" value="canGetName" />
+      <option name="METHOD_NAME" value="canCheckOutOfBedroom" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -266,11 +280,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in CodeclanTowers" />
         <item itemvalue="JUnit.HotelTest" />
-        <item itemvalue="JUnit.HotelTest.canAddConferenceRoom" />
-        <item itemvalue="JUnit.HotelTest.canAddBedroom" />
-        <item itemvalue="JUnit.HotelTest.canCountBedrooms" />
-        <item itemvalue="JUnit.HotelTest.canGetName" />
+        <item itemvalue="JUnit.HotelTest.canCheckOutOfBedroom" />
+        <item itemvalue="JUnit.HotelTest.canCheckInToConferenceRoom" />
+        <item itemvalue="JUnit.HotelTest.canCheckInToBedroom" />
       </list>
     </recent_temporary>
   </component>
@@ -288,39 +302,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ConferenceRoomTest_canAddGuest - 2019.10.09 at 10h 46m 27s.xml">
-      <configuration name="ConferenceRoomTest.canAddGuest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ConferenceRoomTest_canAddGuest - 2019.10.09 at 10h 47m 20s.xml">
-      <configuration name="ConferenceRoomTest.canAddGuest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ConferenceRoomTest_canRemoveGuest - 2019.10.09 at 10h 48m 33s.xml">
-      <configuration name="ConferenceRoomTest.canRemoveGuest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ConferenceRoomTest_canRemoveGuest - 2019.10.09 at 10h 48m 58s.xml">
-      <configuration name="ConferenceRoomTest.canRemoveGuest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ConferenceRoomTest_cantAddGuestsOverCapacity - 2019.10.09 at 10h 49m 57s.xml">
-      <configuration name="ConferenceRoomTest.cantAddGuestsOverCapacity" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HotelTest_canGetName - 2019.10.09 at 10h 58m 03s.xml">
-      <configuration name="HotelTest.canGetName" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HotelTest_canCountBedrooms - 2019.10.09 at 11h 01m 32s.xml">
-      <configuration name="HotelTest.canCountBedrooms" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HotelTest - 2019.10.09 at 11h 08m 13s.xml">
-      <configuration name="HotelTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="HotelTest_canAddBedroom - 2019.10.09 at 11h 09m 44s.xml">
       <configuration name="HotelTest.canAddBedroom" configurationId="JUnit" />
     </history-entry>
     <history-entry file="HotelTest_canAddConferenceRoom - 2019.10.09 at 11h 10m 45s.xml">
       <configuration name="HotelTest.canAddConferenceRoom" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="HotelTest - 2019.10.09 at 11h 13m 01s.xml">
+      <configuration name="HotelTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HotelTest - 2019.10.09 at 11h 13m 03s.xml">
+      <configuration name="HotelTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HotelTest_canCheckInToBedroom - 2019.10.09 at 11h 16m 26s.xml">
+      <configuration name="HotelTest.canCheckInToBedroom" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HotelTest_canCheckInToConferenceRoom - 2019.10.09 at 11h 17m 50s.xml">
+      <configuration name="HotelTest.canCheckInToConferenceRoom" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HotelTest_canCheckOutOfBedroom - 2019.10.09 at 11h 19m 46s.xml">
+      <configuration name="HotelTest.canCheckOutOfBedroom" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HotelTest - 2019.10.09 at 11h 21m 06s.xml">
+      <configuration name="HotelTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_CodeclanTowers - 2019.10.09 at 11h 21m 16s.xml">
+      <configuration name="All in CodeclanTowers" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_CodeclanTowers - 2019.10.09 at 11h 21m 43s.xml">
+      <configuration name="All in CodeclanTowers" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-96" y="78" width="1400" height="771" extended-state="0" />
+    <frame x="85" y="23" width="1400" height="771" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
@@ -337,7 +351,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3298969" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39911634" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -378,24 +392,6 @@
             <element signature="e#130#131#0" expanded="true" />
             <element signature="e#232#233#0" expanded="true" />
             <element signature="e#253#254#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/BedroomTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#255#256#0" expanded="true" />
-            <element signature="e#276#277#0" expanded="true" />
-            <element signature="e#360#361#0" expanded="true" />
-            <element signature="e#381#382#0" expanded="true" />
-            <element signature="e#513#514#0" expanded="true" />
-            <element signature="e#542#543#0" expanded="true" />
-            <element signature="e#600#601#0" expanded="true" />
-            <element signature="e#629#630#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -455,8 +451,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Hotel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="27" column="64" selection-start-line="27" selection-start-column="64" selection-end-line="27" selection-end-column="64" />
+        <state relative-caret-position="288">
+          <caret line="48" column="40" selection-start-line="48" selection-start-column="40" selection-end-line="48" selection-end-column="40" />
           <folding>
             <element signature="e#388#389#0" expanded="true" />
             <element signature="e#409#410#0" expanded="true" />
@@ -468,14 +464,20 @@
             <element signature="e#664#665#0" expanded="true" />
             <element signature="e#741#742#0" expanded="true" />
             <element signature="e#762#763#0" expanded="true" />
+            <element signature="e#857#858#0" expanded="true" />
+            <element signature="e#891#892#0" expanded="true" />
+            <element signature="e#983#984#0" expanded="true" />
+            <element signature="e#1012#1013#0" expanded="true" />
+            <element signature="e#1096#1097#0" expanded="true" />
+            <element signature="e#1133#1134#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/HotelTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="48" column="48" lean-forward="true" selection-start-line="48" selection-start-column="48" selection-end-line="48" selection-end-column="48" />
+        <state relative-caret-position="1140">
+          <caret line="76" column="33" lean-forward="true" selection-start-line="76" selection-start-column="33" selection-end-line="76" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#617#618#0" expanded="true" />
@@ -484,6 +486,16 @@
             <element signature="e#785#786#0" expanded="true" />
             <element signature="e#1061#1062#0" expanded="true" />
             <element signature="e#1089#1090#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/BedroomTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="42" column="9" lean-forward="true" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

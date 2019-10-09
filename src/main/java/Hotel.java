@@ -32,4 +32,20 @@ public class Hotel {
     public int conferenceRoomCount() {
         return this.conferenceRooms.size();
     }
+
+    public void checkInToBedroom(Guest guest, Bedroom bedroom) {
+        bedroom.addGuest(guest);
+    }
+
+    public void checkInToConferenceRoom(Guest guest, ConferenceRoom conferenceRoom) {
+        conferenceRoom.addGuest(guest);
+    }
+
+    public void checkOutOfBedroom(Guest guest, Bedroom bedroom) {
+        bedroom.removeGuest(guest);
+    }
+
+    public void checkOutOfConferenceRoom(Guest guest, ConferenceRoom conferenceRoom) {
+        conferenceRoom.removeGuest(guest);
+    }
 }
