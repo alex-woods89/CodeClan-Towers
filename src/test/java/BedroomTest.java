@@ -10,7 +10,7 @@ public class BedroomTest {
 
     @Before
     public void before(){
-        bedroom = new Bedroom(1, 101, "single");
+        bedroom = new Bedroom(2, 101, "single");
         guest = new Guest("Sammy");
     }
 
@@ -43,8 +43,9 @@ public class BedroomTest {
     @Test
     public void canRemoveGuest(){
         bedroom.addGuest(guest);
+        bedroom.addGuest(guest);
         bedroom.removeGuest(guest);
-        assertEquals(0, bedroom.getGuestsCheckedIn());
+        assertEquals(1, bedroom.getGuestsCheckedIn());
     }
 
     @Test
