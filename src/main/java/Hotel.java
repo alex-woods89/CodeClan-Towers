@@ -52,11 +52,24 @@ public class Hotel {
     }
 
     public void bookRoom(Bedroom bedroom, Guest guest, int capacity) {
+        if(capacity > bookingCount()){
         Booking newBooking = new Booking(bedroom, guest, capacity);
-        bookings.add(newBooking);
+        bookings.add(newBooking);}
     }
 
     public int bookingCount() {
         return this.bookings.size();
     }
+
+    public ArrayList<Bedroom> getEmptyRooms(){
+        ArrayList<Bedroom> emptyRooms = new ArrayList<Bedroom>();
+        for(Bedroom individualBedroom : bedrooms){
+            if(individualBedroom.getGuestsCheckedIn() == 0){
+                emptyRooms.add(individualBedroom);
+            }
+        }
+        return emptyRooms;
+    }
+
+
 }
