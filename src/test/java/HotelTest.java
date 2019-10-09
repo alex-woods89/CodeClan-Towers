@@ -18,8 +18,8 @@ public class HotelTest {
     @Before
     public void before(){
         guest = new Guest("Sammy");
-        bedroom = new Bedroom(2, 101, "double");
-        bedroom1 = new Bedroom(4, 202, "family");
+        bedroom = new Bedroom(2, 101, "double", 10);
+        bedroom1 = new Bedroom(4, 202, "family", 15);
         conferenceRoom = new ConferenceRoom(5, "Mint Suite");
         conferenceRoom1 = new ConferenceRoom(8, "Succulent Suite");
         hotel = new Hotel("CodeClan Towers");
@@ -79,6 +79,11 @@ public class HotelTest {
 
    }
 
+   @Test
+    public void canBookRoom(){
+        hotel.bookRoom(bedroom, guest, 5);
+        assertEquals(1, hotel.bookingCount());
+   }
 
 
 }
