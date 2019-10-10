@@ -15,6 +15,7 @@ public class HotelTest {
     private ConferenceRoom conferenceRoom1;
     private Guest guest;
     private Booking booking;
+    private SwimmingPool swimmingPool;
 
     @Before
     public void before(){
@@ -25,6 +26,7 @@ public class HotelTest {
         conferenceRoom1 = new ConferenceRoom(8, "Succulent Suite");
         hotel = new Hotel("CodeClan Towers");
         booking = new Booking(bedroom, guest, 5);
+        swimmingPool = new SwimmingPool();
     }
 
     @Test
@@ -106,7 +108,8 @@ public class HotelTest {
    @Test
     public void canCheckInFully(){
         hotel.bookRoom(bedroom, guest, 5);
-        hotel.checkInFully(guest, bedroom, booking);
+        hotel.checkInFully(guest, bedroom, booking, swimmingPool);
+        assertEquals(1, swimmingPool.swimmerCount());
         assertEquals(50, guest.getWallet());
        assertEquals(1, bedroom.getGuestsCheckedIn());
        assertEquals(1, hotel.bookingCount());

@@ -15,7 +15,6 @@ public class Hotel {
         this.bedrooms = new ArrayList<Bedroom>();
         this.conferenceRooms = new ArrayList<ConferenceRoom>();
         this.bookings = new ArrayList<Booking>();
-        this.guest = guest;
         this.swimmingPool = new SwimmingPool();
     }
 
@@ -77,9 +76,10 @@ public class Hotel {
     }
 
 
-    public void checkInFully(Guest guest, Bedroom bedroom, Booking booking) {
+    public void checkInFully(Guest guest, Bedroom bedroom, Booking booking,SwimmingPool swimmingPool) {
        if (guest.canPayBill(booking)) {
            checkInToBedroom(guest, bedroom);
+           swimmingPool.goForASwim(guest);
            guest.payBill(booking);
        }
     }
